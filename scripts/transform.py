@@ -2,7 +2,6 @@ import pandas as pd
 import numpy as np
 import re
 from utils.cleaning import company_case_logic, normalize_location, detect_job_family, classify_seniority, split_revenue
-from datetime import datetime
 
 def transform_data(df):
     # Cleaning id column
@@ -66,5 +65,28 @@ def transform_data(df):
 
     df["company_revenue"] = df["company_revenue"].replace("Unknown / Non-Applicable", np.nan)
     df[["company_revenue_min", "company_revenue_max"]] = df['company_revenue'].apply(split_revenue).apply(pd.Series)
+
+    # Cleaning dates column
+
+    # because the format is already correct, 
+    # we just need to convert it into datetime format that handles timezone (using UTC as the standard)
+    df["dates"] = pd.to_datetime(df["dates"], utc=True)
+    df["date"] = df["dates"].dt.date
+    df["day"] = df["dates"].dt.day
+    df["month"] = df["dates"].dt.month
+    df["year"] = df["dates"].dt.year
+    df["time"] = df["dates"].dt.time
+    
+    # Creating surrogate keys for potential dimensional tables
+
+    df["company_id"] = df["company"].astype("category").cat.codes + 1
+    df["location_id"] = df["location"].astype("category").cat.codes + 1
+    # the reason why we dont use job_title column as the base for job_id is because the cardinality
+    # of the data is too high. so we decided to left it as a descriptive column in fact table
+    # and use job_family instead
+    df["job_family_id"] = df["job_family"].astype("category").cat.codes + 1
+    df["seniority_level_id"] = df["seniority_level"].astype("category").cat.codes + 1
+    df["date_id"] = df["dates"].dt.strftime("%Y%m%d").astype(int)
+    df["time_id"] = df["dates"].dt.strftime("%H%M%S").astype(int)
 
     return df
