@@ -1,17 +1,17 @@
-from config.setting import RAW_DATA_PATH, OUTPUT_PATH
+from config.setting import REQUIREMENTS_DATA_PATH, WATCHES_DATA_PATH
 from scripts.extract import extract_csv
-from scripts.transform import transform_data
+from scripts.transform import transform_data_requirements, transform_data_watches
 from utils.data_profile import data_demographi
 
 def main():
-    # Extract raw csv data from input path
-    raw_requirements_df = extract_csv(RAW_DATA_PATH)
+    # Extract raw data_requirements csv data from input path
+    raw_requirements_df = extract_csv(REQUIREMENTS_DATA_PATH)
 
     # Transform data
-    transformed_requirements = transform_data(raw_requirements_df)
+    transformed_requirements = transform_data_requirements(raw_requirements_df)
 
     # Data demographi/profiling
-    requirements_demographi = data_demographi(transformed_requirements, "job_description")
+    # requirements_demographi = data_demographi(transformed_requirements, "job_description")
 
     # Fact and dimensional tables
     fact_requirements = transformed_requirements[["requirement_id", "company_id", "location_id", "job_family_id", "seniority_level_id", "date_id", "time_id", "job_title", "job_description", "salary_amount", "salary_period"]]
@@ -22,7 +22,13 @@ def main():
     dim_date = transformed_requirements[["date_id", "date", "day", "month", "year"]].drop_duplicates().reset_index(drop=True)
     dim_time = transformed_requirements[["time_id", "time"]].drop_duplicates().reset_index(drop=True)
 
-    print(requirements_demographi)
+    # Extract raw watches csv data from input path
+    raw_watches_df = extract_csv(WATCHES_DATA_PATH)
+
+    # Transform data
+    transformed_watches = transform_data_watches(raw_watches_df)
+
+    print(transformed_watches)
 
 if __name__ == "__main__":
     main()

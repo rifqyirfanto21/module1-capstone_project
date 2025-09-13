@@ -2,7 +2,6 @@ import re
 import numpy as np
 import pandas as pd
 
-# Function to standardize variation of suffix commonly found in company names
 def standardize_suffix(suffix):
     """
     Standardizing the suffix commonly found in company names
@@ -17,15 +16,14 @@ def standardize_suffix(suffix):
         }
     return suffix_mapping.get(suffix, suffix)
 
-# Function to check the suffix case and the company name case
 def company_case_logic(name):
     """
     Handles the suffix and the company name case checking,
     for company column cleaning
     """
-    # The reason why we separating the content between name, suffix, 
+    # The reason why i'm separating the content between name, suffix, 
     # and possible content after suffix is because i found some rows that have content after the suffix. 
-    # to preserve that, we will separate it first
+    # to preserve that, i will separate it first
 
     suffix_match = re.search(r'^(.*?)\b(Inc|LLC|Corp|Ltd|Co)\b(.*)$', name, flags=re.IGNORECASE)
     if suffix_match:
@@ -69,7 +67,6 @@ state_abbrev = {
     "Wisconsin": "WI", "Wyoming": "WY", "District of Columbia": "DC"
 }
 
-# Function to normalize raw location into a more structured format
 def normalize_location(loc):
     """
     Handles normalizing location into city, state, country, and location type
@@ -86,7 +83,6 @@ def normalize_location(loc):
     else:
         return None, None, None, "Unknown"
 
-# Function to classify job titles into predefined job families
 def detect_job_family(title):
     """
     Handles detecting job family from job title using keyword matching. 
@@ -161,3 +157,40 @@ def split_revenue(val):
         return (nums[0], nums[1])
     else:
         return (np.nan, np.nan)
+    
+watch_brand_list = [
+    "Neutron", "Fossil", "Citizen", "Seiko",
+    "Casio", "Timex", "Daniel Wellington", "Tissot",
+    "Tommy Hilfiger", "Fastrack", "Michael Kors", "Rolex",
+    "Maxima", "Titan", "Daniel Klein", "Sonata",
+    "Swatch", "Guess", "Helix", "Swadesi",
+    "Goldenize Fashion", "Emporio Armani", "Lacoste", "Q&Q",
+    "Ferro", "Coach", "Giordano", "Esprit",
+    "Aurex", "Swiss", "Varni", "Escort",
+    "Elle", "Kiroh", "D'signer", "Acnos",
+    "Belvin", "Emporio_Armaniquartz", "Papio", "Rozti",
+    "Kytsch", "Alba", "Glory", "Nibosi",
+    "Crestello", "Satzig®", "Reebok", "Astis",
+    "Neo Victory", "Royalez", "Krishna", "D'Signer",
+    "Vouge", "Timenter", "Zoop", "Cero",
+    "Glitzi", "Glenvit-X", "Bigowl", "Stysol",
+    "Lorenz", "Hmt", "Gemini", "Adamo",
+    "Groot", "Matrix", "Selloria", "Chisa",
+    "Roister", "Shengke", "Mikado", "Vorgeta",
+    "Lyonora", "Highend", "Hemt", "H2X"
+    ]
+
+def clean_brand(extracted_brands):
+    """
+    Cleaning brand names with manually listed brand names
+    """
+
+    if extracted_brands in watch_brand_list:
+        return extracted_brands
+    
+    for brand in watch_brand_list:
+        for word in extracted_brands.split():
+            if word in brand:
+                return brand
+            
+    return "Not Listed"

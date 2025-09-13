@@ -1,6 +1,7 @@
 #Input File Path
 
-RAW_DATA_PATH = "data/data_requirements.csv"
+REQUIREMENTS_DATA_PATH = "data/data_requirements.csv"
+WATCHES_DATA_PATH = "data/Watches.csv"
 
 #Output File Path
 
