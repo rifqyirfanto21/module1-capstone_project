@@ -1,0 +1,8 @@
+import pandas as pd
+from scripts.db_connect import get_db_connection
+
+#Connect Dataframe to PostgreSQL DB
+def load_to_postgres(df, table_name, if_exists="append"):
+    engine = get_db_connection()
+    df.to_sql(table_name, engine, if_exists=if_exists, index=False)
+    print(f"Data loaded to table {table_name} successfully.")

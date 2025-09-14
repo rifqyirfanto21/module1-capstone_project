@@ -109,6 +109,7 @@ def transform_data_watches(df):
     df["brand_temp"] = df["name"].str.split().str[:2].str.join(' ').str.title()
     df["brand_cleaned"] = df["brand_temp"].apply(clean_brand)
     df["brand_cleaned"] = df["brand_cleaned"].str.replace("Emporio_Armaniquartz", "Emperio Armani")
+    df.drop(["brand_temp"], axis=1, inplace=True)
 
     # Cleaning ratings column
 
@@ -131,5 +132,8 @@ def transform_data_watches(df):
     df["discount_price"] = pd.to_numeric(df["discount_price"], errors='coerce')
     df["actual_price"] = df["actual_price"].str.replace(r"([^\d.,]+)", "", regex=True)
     df["actual_price"] = pd.to_numeric(df["actual_price"], errors='coerce')
-    
+
+    df["product_id"] = df["name"].astype("category").cat.codes + 1
+
+    # pd.set_option('display.max_colwidth', None)
     return df

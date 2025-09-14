@@ -28,7 +28,10 @@ def main():
     # Transform data
     transformed_watches = transform_data_watches(raw_watches_df)
 
-    print(transformed_watches)
+    # Dimensional tables
+    dim_products = transformed_watches[["product_id", "name", "brand_cleaned", "main_category", "sub_category", "image", "link", "ratings", "no_of_ratings", "actual_price", "discount_price", "currency"]].drop_duplicates().reset_index(drop=True)
+
+    print(dim_products.info())
 
 if __name__ == "__main__":
     main()
