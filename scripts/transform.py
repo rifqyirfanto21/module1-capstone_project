@@ -133,7 +133,7 @@ def transform_data_watches(df):
     df["actual_price"] = df["actual_price"].str.replace(r"([^\d.,]+)", "", regex=True)
     df["actual_price"] = pd.to_numeric(df["actual_price"], errors='coerce')
 
-    df["product_id"] = df["name"].astype("category").cat.codes + 1
+    df["product_id"] = range(1, len(df) + 1)
 
     # pd.set_option('display.max_colwidth', None)
     return df

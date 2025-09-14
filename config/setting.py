@@ -6,8 +6,8 @@ WATCHES_DATA_PATH = "data/Watches.csv"
 #DB Connection Settings
 DB_CONFIG = {
     "host": "localhost",
-    "port": "5432",
+    "port": "5433",
     "database": "module1-capstone-project",
-    "user": "root",
-    "password": "password"
+    "user": "rifqy_de",
+    "password": "purwade12345"
 }
