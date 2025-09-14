@@ -65,8 +65,9 @@ def transform_data_requirements(df):
     # Cleaning company_founded column
     
     df['company_founded'] = df["company_founded"].astype("Int64")
+    # there is no invalid future year for this dataset
+    # uncheck code below to check for invalid future year
     # invalid_future = df[df["company_founded"] > current_year]
-    # there is no invalid future year
 
     # Cleaning company_revenue column
 
@@ -135,5 +136,4 @@ def transform_data_watches(df):
 
     df["product_id"] = range(1, len(df) + 1)
 
-    # pd.set_option('display.max_colwidth', None)
     return df
