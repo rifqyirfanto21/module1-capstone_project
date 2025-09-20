@@ -2,6 +2,9 @@ from sqlalchemy import create_engine
 from config.setting import DB_CONFIG
 
 def get_db_connection():
+    """
+    Database connection to PostgreSQL
+    """
     host = DB_CONFIG["host"]
     port = DB_CONFIG["port"]
     database = DB_CONFIG["database"]

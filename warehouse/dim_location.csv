@@ -1,0 +1,420 @@
+location_id,location,city,state,country,location_type
+324,"Riverside, CA",Riverside,CA,United States,City
+260,"Newton, MS",Newton,MS,United States,City
+313,Remote,,,,Remote
+91,"Cupertino, CA",Cupertino,CA,United States,City
+26,"Baltimore, MD",Baltimore,MD,United States,City
+258,"New York, NY",New York,NY,United States,City
+410,"Westwood, MA",Westwood,MA,United States,City
+343,"San Francisco, CA",San Francisco,CA,United States,City
+9,"Alpharetta, GA",Alpharetta,GA,United States,City
+174,"Irving, TX",Irving,TX,United States,City
+41,"Boston, MA",Boston,MA,United States,City
+340,"Salt Lake City, UT",Salt Lake City,UT,United States,City
+43,"Braham, MN",Braham,MN,United States,City
+106,"East Hartford, CT",East Hartford,CT,United States,City
+92,"Dallas, TX",Dallas,TX,United States,City
+19,"Arlington, VA",Arlington,VA,United States,City
+133,"Framingham, MA",Framingham,MA,United States,City
+371,"Syracuse, NY",Syracuse,NY,United States,City
+304,"Princeton, NJ",Princeton,NJ,United States,City
+399,"Washington, DC",Washington,DC,United States,City
+221,"Menlo Park, CA",Menlo Park,CA,United States,City
+310,"Redlands, CA",Redlands,CA,United States,City
+24,"Austin, TX",Austin,TX,United States,City
+319,"Richmond, VA",Richmond,VA,United States,City
+21,"Atlanta, GA",Atlanta,GA,United States,City
+34,"Berkeley Heights, NJ",Berkeley Heights,NJ,United States,City
+360,"South Milwaukee, WI",South Milwaukee,WI,United States,City
+70,"Chicago, IL",Chicago,IL,United States,City
+320,"Richville, MN",Richville,MN,United States,City
+219,"McLean, VA",McLean,VA,United States,City
+274,"Oakland, CA",Oakland,CA,United States,City
+141,"Glen Allen, VA",Glen Allen,VA,United States,City
+259,"Newark, NJ",Newark,NJ,United States,City
+96,"Dekalb, IL",Dekalb,IL,United States,City
+29,"Beaverton, OR",Beaverton,OR,United States,City
+296,"Plainsboro, NJ",Plainsboro,NJ,United States,City
+206,"Los Angeles, CA",Los Angeles,CA,United States,City
+295,"Pittsburgh, PA",Pittsburgh,PA,United States,City
+211,"Mahwah, NJ",Mahwah,NJ,United States,City
+245,"Murray, UT",Murray,UT,United States,City
+349,"Santa Clara, CA",Santa Clara,CA,United States,City
+297,"Plano, TX",Plano,TX,United States,City
+210,"Madison, WI",Madison,WI,United States,City
+243,"Mount Laurel, NJ",Mount Laurel,NJ,United States,City
+75,"Cleveland, OH",Cleveland,OH,United States,City
+230,"Minneapolis, MN",Minneapolis,MN,United States,City
+348,"Santa Ana, CA",Santa Ana,CA,United States,City
+329,"Rockville, MD",Rockville,MD,United States,City
+101,"Dover, DE",Dover,DE,United States,City
+45,"Brentwood, TN",Brentwood,TN,United States,City
+109,"Edison, NJ",Edison,NJ,United States,City
+179,"Jersey City, NJ",Jersey City,NJ,United States,City
+153,"Hanover, NJ",Hanover,NJ,United States,City
+169,"Imperial, CA",Imperial,CA,United States,City
+408,"West Point, NY",West Point,NY,United States,City
+389,United States,,,United States,Country
+361,"South San Francisco, CA",South San Francisco,CA,United States,City
+85,"Coppell, TX",Coppell,TX,United States,City
+195,"Lehi, UT",Lehi,UT,United States,City
+82,"Columbia, SC",Columbia,SC,United States,City
+386,"Tulsa, OK",Tulsa,OK,United States,City
+98,"Denver, CO",Denver,CO,United States,City
+139,"Getzville, NY",Getzville,NY,United States,City
+151,"Hampton, VA",Hampton,VA,United States,City
+240,"Morrisville, NC",Morrisville,NC,United States,City
+335,"Rutherford, NJ",Rutherford,NJ,United States,City
+184,"King of Prussia, PA",King of Prussia,PA,United States,City
+166,"Hunt Valley, MD",Hunt Valley,MD,United States,City
+244,"Mountain View, CA",Mountain View,CA,United States,City
+86,"Coral Gables, FL",Coral Gables,FL,United States,City
+353,"Scottsdale, AZ",Scottsdale,AZ,United States,City
+372,"Tampa, FL",Tampa,FL,United States,City
+164,"Houston, TX",Houston,TX,United States,City
+294,"Phoenix, AZ",Phoenix,AZ,United States,City
+67,"Charlotte, NC",Charlotte,NC,United States,City
+273,"Oak Ridge, TN",Oak Ridge,TN,United States,City
+180,"Johns Creek, GA",Johns Creek,GA,United States,City
+114,"Enfield, CT",Enfield,CT,United States,City
+108,"Eden Prairie, MN",Eden Prairie,MN,United States,City
+396,Virginia,,VA,United States,State
+254,"New Haven, CT",New Haven,CT,United States,City
+412,"Wichita, KS",Wichita,KS,United States,City
+288,"Peachtree Corners, GA",Peachtree Corners,GA,United States,City
+235,"Monrovia, CA",Monrovia,CA,United States,City
+263,"Norristown, PA",Norristown,PA,United States,City
+355,"Shoreview, MN",Shoreview,MN,United States,City
+317,"Richardson, TX",Richardson,TX,United States,City
+55,"Cambridge, MA",Cambridge,MA,United States,City
+102,"Downers Grove, IL",Downers Grove,IL,United States,City
+342,"San Diego, CA",San Diego,CA,United States,City
+225,"Miami, FL",Miami,FL,United States,City
+338,"Saint Louis, MO",Saint Louis,MO,United States,City
+356,"Somerville, MA",Somerville,MA,United States,City
+42,"Boulder, CO",Boulder,CO,United States,City
+129,"Fort Myers, FL",Fort Myers,FL,United States,City
+368,"Sunnyvale, CA",Sunnyvale,CA,United States,City
+116,"Evanston, IL",Evanston,IL,United States,City
+285,"Palo Alto, CA",Palo Alto,CA,United States,City
+303,"Portland, OR",Portland,OR,United States,City
+204,"Lone Tree, CO",Lone Tree,CO,United States,City
+209,"Madison, NJ",Madison,NJ,United States,City
+279,Oregon,,OR,United States,State
+400,"Waterloo, IA",Waterloo,IA,United States,City
+23,"Aurora, CO",Aurora,CO,United States,City
+414,"Wilmington, DE",Wilmington,DE,United States,City
+90,"Crystal Lake, IL",Crystal Lake,IL,United States,City
+168,Illinois,,IL,United States,State
+78,"Collegeville, PA",Collegeville,PA,United States,City
+311,"Redmond, WA",Redmond,WA,United States,City
+264,North Carolina,,NC,United States,State
+314,"Reston, VA",Reston,VA,United States,City
+381,"Traverse City, MI",Traverse City,MI,United States,City
+173,"Irvine, CA",Irvine,CA,United States,City
+212,"Malvern, PA",Malvern,PA,United States,City
+418,"Wright Patterson AFB, OH",Wright Patterson AFB,OH,United States,City
+187,"Lake Mary, FL",Lake Mary,FL,United States,City
+22,"Auburn Hills, MI",Auburn Hills,MI,United States,City
+167,"Huntsville, AL",Huntsville,AL,United States,City
+290,Pennsylvania,,PA,United States,State
+66,"Charleroi, PA",Charleroi,PA,United States,City
+14,"Annapolis Junction, MD",Annapolis Junction,MD,United States,City
+159,"Herndon, VA",Herndon,VA,United States,City
+203,"Lombard, IL",Lombard,IL,United States,City
+321,"Ridgefield Park, Bergen, NJ",Ridgefield Park,"Bergen, NJ",United States,City
+326,"Roanoke, VA",Roanoke,VA,United States,City
+208,"Lutz, FL",Lutz,FL,United States,City
+293,"Philadelphia, PA",Philadelphia,PA,United States,City
+127,"Fort Meade, MD",Fort Meade,MD,United States,City
+65,"Chantilly, VA",Chantilly,VA,United States,City
+176,"Iselin, NJ",Iselin,NJ,United States,City
+277,"Omaha, NE",Omaha,NE,United States,City
+385,"Tucson, AZ",Tucson,AZ,United States,City
+49,"Buffalo, NY",Buffalo,NY,United States,City
+286,"Paramus, NJ",Paramus,NJ,United States,City
+229,"Milwaukee, WI",Milwaukee,WI,United States,City
+52,California,,CA,United States,State
+61,"Carrollton, TX",Carrollton,TX,United States,City
+105,"Durham, NC",Durham,NC,United States,City
+118,"Everett, WA",Everett,WA,United States,City
+344,"San Jose, CA",San Jose,CA,United States,City
+278,"Ontario, CA",Ontario,CA,United States,City
+363,"Springfield, MA",Springfield,MA,United States,City
+83,"Columbus, OH",Columbus,OH,United States,City
+95,"Deerfield Beach, FL",Deerfield Beach,FL,United States,City
+354,"Seattle, WA",Seattle,WA,United States,City
+25,"Avondale Estates, GA",Avondale Estates,GA,United States,City
+178,"Jacksonville, FL",Jacksonville,FL,United States,City
+135,"Fremont, CA",Fremont,CA,United States,City
+336,"Sacramento, CA",Sacramento,CA,United States,City
+2,"Addison, TX",Addison,TX,United States,City
+53,"California, KY",California,KY,United States,City
+213,Manhattan,,,,Unknown
+300,"Pleasanton, CA",Pleasanton,CA,United States,City
+419,"Wrightsville Beach, NC",Wrightsville Beach,NC,United States,City
+270,"North, SC",North,SC,United States,City
+33,"Bentonville, AR",Bentonville,AR,United States,City
+191,"Largo, FL",Largo,FL,United States,City
+267,"North Druid Hills, GA",North Druid Hills,GA,United States,City
+160,"Hillsboro, OH",Hillsboro,OH,United States,City
+54,"Camarillo, CA",Camarillo,CA,United States,City
+231,Minnesota,,MN,United States,State
+331,"Rome, GA",Rome,GA,United States,City
+156,"Hauppauge, NY",Hauppauge,NY,United States,City
+46,"Bristol, PA",Bristol,PA,United States,City
+148,"Greenville, SC",Greenville,SC,United States,City
+72,"Cincinnati, OH",Cincinnati,OH,United States,City
+20,"Ashburn, VA",Ashburn,VA,United States,City
+111,"Egg Harbor Township, NJ",Egg Harbor Township,NJ,United States,City
+8,"Allentown, PA",Allentown,PA,United States,City
+97,"Delaware, OH",Delaware,OH,United States,City
+227,"Midvale, UT",Midvale,UT,United States,City
+291,"Peoria, IL",Peoria,IL,United States,City
+89,"Crystal City, VA",Crystal City,VA,United States,City
+3,"Albany, NY",Albany,NY,United States,City
+411,"Whippany, NJ",Whippany,NJ,United States,City
+1,"Ada, MI",Ada,MI,United States,City
+150,"Grimes, IA",Grimes,IA,United States,City
+16,"Arden Hills, MN",Arden Hills,MN,United States,City
+382,"Troy, MI",Troy,MI,United States,City
+323,"Ridgeland, MS",Ridgeland,MS,United States,City
+32,"Bellevue, WA",Bellevue,WA,United States,City
+307,"Raleigh, NC",Raleigh,NC,United States,City
+165,"Hudson, MA",Hudson,MA,United States,City
+409,"Westlake, TX",Westlake,TX,United States,City
+251,"New Braunfels, TX",New Braunfels,TX,United States,City
+39,"Boca Raton, FL",Boca Raton,FL,United States,City
+248,"Nashville, TN",Nashville,TN,United States,City
+10,"Altamonte Springs, FL",Altamonte Springs,FL,United States,City
+239,"Mooresville, NC",Mooresville,NC,United States,City
+302,"Portland, ME",Portland,ME,United States,City
+370,"Sydney, FL",Sydney,FL,United States,City
+215,"Marina del Rey, CA",Marina del Rey,CA,United States,City
+365,"Springfield, VA",Springfield,VA,United States,City
+257,"New Richmond, WI",New Richmond,WI,United States,City
+171,"Indianapolis, IN",Indianapolis,IN,United States,City
+175,"Irvington, NY",Irvington,NY,United States,City
+350,"Santa Cruz, CA",Santa Cruz,CA,United States,City
+69,"Chevy Chase, MD",Chevy Chase,MD,United States,City
+94,"Dearborn, MI",Dearborn,MI,United States,City
+359,"South Charleston, WV",South Charleston,WV,United States,City
+128,"Fort Mill, SC",Fort Mill,SC,United States,City
+377,Texas,,TX,United States,State
+232,"Minnetonka, MN",Minnetonka,MN,United States,City
+275,Ohio,,OH,United States,State
+330,"Rogers, AR",Rogers,AR,United States,City
+404,"Wellesley, MA",Wellesley,MA,United States,City
+337,"Saint Ann, MO",Saint Ann,MO,United States,City
+182,"Kansas City, MO",Kansas City,MO,United States,City
+405,"West Chester, PA",West Chester,PA,United States,City
+4,"Alexandria, VA",Alexandria,VA,United States,City
+17,Arizona,,AZ,United States,State
+339,"Saint Petersburg, FL",Saint Petersburg,FL,United States,City
+362,"Spring, TX",Spring,TX,United States,City
+154,"Hartford, CT",Hartford,CT,United States,City
+242,"Moscow, ID",Moscow,ID,United States,City
+125,"Fort Gordon, GA",Fort Gordon,GA,United States,City
+384,"Trumbull, CT",Trumbull,CT,United States,City
+284,"Palmyra, NJ",Palmyra,NJ,United States,City
+47,"Brooklyn, NY",Brooklyn,NY,United States,City
+341,"San Antonio, TX",San Antonio,TX,United States,City
+205,"Long Island City, NY",Long Island City,NY,United States,City
+103,"Dubuque, IA",Dubuque,IA,United States,City
+266,"North Chicago, IL",North Chicago,IL,United States,City
+84,"Conyers, GA",Conyers,GA,United States,City
+163,"Horsham, PA",Horsham,PA,United States,City
+44,"Branford, CT",Branford,CT,United States,City
+393,"Vancouver, WA",Vancouver,WA,United States,City
+36,"Bethesda, MD",Bethesda,MD,United States,City
+115,"Englewood, CO",Englewood,CO,United States,City
+250,"Neptune City, NJ",Neptune City,NJ,United States,City
+322,"Ridgefield, NJ",Ridgefield,NJ,United States,City
+312,"Redwood City, CA",Redwood City,CA,United States,City
+234,"Moline, IL",Moline,IL,United States,City
+172,"Inver Grove Heights, MN",Inver Grove Heights,MN,United States,City
+59,"Canton, MI",Canton,MI,United States,City
+143,"Golden Valley, MN",Golden Valley,MN,United States,City
+262,"Norfolk, VA",Norfolk,VA,United States,City
+376,"Temple, TX",Temple,TX,United States,City
+146,"Granger, IN",Granger,IN,United States,City
+397,"Waltham, MA",Waltham,MA,United States,City
+217,"Maryland Heights, MO",Maryland Heights,MO,United States,City
+390,"Urbandale, IA",Urbandale,IA,United States,City
+214,"Mansfield, MA",Mansfield,MA,United States,City
+181,"Jupiter, FL",Jupiter,FL,United States,City
+7,"Allendale, MI",Allendale,MI,United States,City
+247,"Naperville, IL",Naperville,IL,United States,City
+112,"El Segundo, CA",El Segundo,CA,United States,City
+51,"Burlingame, CA",Burlingame,CA,United States,City
+186,"Lake Forest, IL",Lake Forest,IL,United States,City
+5,"Allen Park, MI",Allen Park,MI,United States,City
+192,"Las Vegas, NV",Las Vegas,NV,United States,City
+222,"Merritt Island, FL",Merritt Island,FL,United States,City
+147,"Green Bay, WI",Green Bay,WI,United States,City
+56,"Campbell, CA",Campbell,CA,United States,City
+401,"Watertown, MA",Watertown,MA,United States,City
+315,Rhode Island,,RI,United States,State
+122,Florida,,FL,United States,State
+269,"North Olmsted, OH",North Olmsted,OH,United States,City
+15,"Annapolis, MD",Annapolis,MD,United States,City
+134,"Frederick, MD",Frederick,MD,United States,City
+325,"Riverwoods, IL",Riverwoods,IL,United States,City
+351,"Santa Monica, CA",Santa Monica,CA,United States,City
+391,"Van Nuys, CA",Van Nuys,CA,United States,City
+224,"Mexico, MO",Mexico,MO,United States,City
+268,"North Las Vegas, NV",North Las Vegas,NV,United States,City
+394,"Vicksburg, MS",Vicksburg,MS,United States,City
+305,"Provo, UT",Provo,UT,United States,City
+119,"Fairfax, VA",Fairfax,VA,United States,City
+12,"Anaheim, CA",Anaheim,CA,United States,City
+140,"Gig Harbor, WA",Gig Harbor,WA,United States,City
+136,"Frisco, TX",Frisco,TX,United States,City
+198,"Linthicum Heights, MD",Linthicum Heights,MD,United States,City
+280,"Orlando, FL",Orlando,FL,United States,City
+407,"West Pittsburg, PA",West Pittsburg,PA,United States,City
+378,"The Woodlands, TX",The Woodlands,TX,United States,City
+120,"Falls Church, VA",Falls Church,VA,United States,City
+366,"Sterling, IL",Sterling,IL,United States,City
+352,"Schaumburg, IL",Schaumburg,IL,United States,City
+64,"Chandler, AZ",Chandler,AZ,United States,City
+236,"Montebello, CA",Montebello,CA,United States,City
+272,"O Fallon, MO",O Fallon,MO,United States,City
+328,"Rochester, MN",Rochester,MN,United States,City
+375,"Tempe, AZ",Tempe,AZ,United States,City
+188,"Lakeland, FL",Lakeland,FL,United States,City
+207,"Louisville, KY",Louisville,KY,United States,City
+358,"South Bend, IN",South Bend,IN,United States,City
+68,"Chesterfield, MO",Chesterfield,MO,United States,City
+415,Wisconsin,,WI,United States,State
+161,"Hillsboro, OR",Hillsboro,OR,United States,City
+18,"Arlington, TX",Arlington,TX,United States,City
+308,"Rancho Santa Margarita, CA",Rancho Santa Margarita,CA,United States,City
+194,"Leawood, KS",Leawood,KS,United States,City
+256,"New Orleans, LA",New Orleans,LA,United States,City
+249,"Nellis AFB, NV",Nellis AFB,NV,United States,City
+306,"Quincy, MA",Quincy,MA,United States,City
+199,"Little Rock, AR",Little Rock,AR,United States,City
+276,"Oklahoma City, OK",Oklahoma City,OK,United States,City
+117,"Evansville, IN",Evansville,IN,United States,City
+170,"Independence, OH",Independence,OH,United States,City
+100,"Des Moines, IA",Des Moines,IA,United States,City
+124,"Fort Bragg, NC",Fort Bragg,NC,United States,City
+201,"Livermore, CA",Livermore,CA,United States,City
+395,"Vienna, VA",Vienna,VA,United States,City
+138,"Gastonia, NC",Gastonia,NC,United States,City
+152,"Hanover, MD",Hanover,MD,United States,City
+48,"Brooklyn, OH",Brooklyn,OH,United States,City
+162,"Honolulu, HI",Honolulu,HI,United States,City
+196,"Lewisville, TX",Lewisville,TX,United States,City
+60,"Carlstadt, NJ",Carlstadt,NJ,United States,City
+131,"Fort Worth, TX",Fort Worth,TX,United States,City
+261,"Niceville, FL",Niceville,FL,United States,City
+123,"Folsom, CA",Folsom,CA,United States,City
+392,"Van Wert, OH",Van Wert,OH,United States,City
+299,"Plattsburgh, NY",Plattsburgh,NY,United States,City
+50,"Burbank, CA",Burbank,CA,United States,City
+406,"West Lebanon, NH",West Lebanon,NH,United States,City
+28,"Beavercreek, OH",Beavercreek,OH,United States,City
+416,"Woburn, MA",Woburn,MA,United States,City
+183,"Kennedy Space Center, FL",Kennedy Space Center,FL,United States,City
+31,"Belcamp, MD",Belcamp,MD,United States,City
+367,"Sterling, VA",Sterling,VA,United States,City
+379,"Titusville, FL",Titusville,FL,United States,City
+126,"Fort Lee, NJ",Fort Lee,NJ,United States,City
+57,"Canoga Park, CA",Canoga Park,CA,United States,City
+177,"Itasca, IL",Itasca,IL,United States,City
+73,"Clayton, MO",Clayton,MO,United States,City
+197,"Lexington, MA",Lexington,MA,United States,City
+383,"Troy, NY",Troy,NY,United States,City
+63,"Centennial, CO",Centennial,CO,United States,City
+13,"Andrews AFB, MD",Andrews AFB,MD,United States,City
+238,"Moorestown, NJ",Moorestown,NJ,United States,City
+200,"Littleton, CO",Littleton,CO,United States,City
+145,"Grand Rapids, MI",Grand Rapids,MI,United States,City
+38,"Blue Ash, OH",Blue Ash,OH,United States,City
+104,"Dulles, VA",Dulles,VA,United States,City
+265,"North Charleston, SC",North Charleston,SC,United States,City
+309,"Reading, PA",Reading,PA,United States,City
+193,"Laurel, MD",Laurel,MD,United States,City
+35,"Berkeley, MO",Berkeley,MO,United States,City
+281,"Overland Park, KS",Overland Park,KS,United States,City
+155,"Harvey, IL",Harvey,IL,United States,City
+282,"Pacific, MO",Pacific,MO,United States,City
+58,"Canonsburg, PA",Canonsburg,PA,United States,City
+99,"Denver, NC",Denver,NC,United States,City
+37,"Bethlehem, PA",Bethlehem,PA,United States,City
+226,Michigan,,MI,United States,State
+40,"Bolingbrook, IL",Bolingbrook,IL,United States,City
+380,"Toronto, OH",Toronto,OH,United States,City
+132,"Foster City, CA",Foster City,CA,United States,City
+71,"Chico, CA",Chico,CA,United States,City
+93,"Danville, PA",Danville,PA,United States,City
+233,Missouri,,MO,United States,State
+190,"Lansing, MI",Lansing,MI,United States,City
+387,"Tysons Corner, VA",Tysons Corner,VA,United States,City
+88,"Costa, WV",Costa,WV,United States,City
+241,"Morton, IL",Morton,IL,United States,City
+87,"Costa Mesa, CA",Costa Mesa,CA,United States,City
+30,"Bedford, MA",Bedford,MA,United States,City
+246,"Napa, CA",Napa,CA,United States,City
+237,"Montgomery, AL",Montgomery,AL,United States,City
+369,"Swannanoa, NC",Swannanoa,NC,United States,City
+301,"Plymouth, MN",Plymouth,MN,United States,City
+157,"Hawthorne, CA",Hawthorne,CA,United States,City
+130,"Fort Washington, PA",Fort Washington,PA,United States,City
+398,Washington State,,,,Unknown
+255,New Jersey,,NJ,United States,State
+218,Massachusetts,,MA,United States,State
+76,"Clinton, MS",Clinton,MS,United States,City
+333,"Rosslyn, VA",Rosslyn,VA,United States,City
+252,"New Bremen, OH",New Bremen,OH,United States,City
+6,"Allen, TX",Allen,TX,United States,City
+287,"Pasadena, CA",Pasadena,CA,United States,City
+27,"Baton Rouge, LA",Baton Rouge,LA,United States,City
+185,"Kirkland, WA",Kirkland,WA,United States,City
+346,"San Ramon, CA",San Ramon,CA,United States,City
+142,"Glendale, AZ",Glendale,AZ,United States,City
+107,"East Palo Alto, CA",East Palo Alto,CA,United States,City
+223,"Mesa, AZ",Mesa,AZ,United States,City
+374,"Tarrytown, NY",Tarrytown,NY,United States,City
+189,"Lancaster, PA",Lancaster,PA,United States,City
+113,"Elmira, NY",Elmira,NY,United States,City
+347,"Sandusky, OH",Sandusky,OH,United States,City
+62,"Carteret, NJ",Carteret,NJ,United States,City
+11,"American Fork, UT",American Fork,UT,United States,City
+77,"College Park, MD",College Park,MD,United States,City
+79,Colorado,,CO,United States,State
+228,"Milford, MA",Milford,MA,United States,City
+357,"Souderton, PA",Souderton,PA,United States,City
+345,"San Juan, PR",San Juan,PR,United States,City
+121,"Falmouth, ME",Falmouth,ME,United States,City
+149,"Greenwood Village, CO",Greenwood Village,CO,United States,City
+373,"Tarrant, TX",Tarrant,TX,United States,City
+144,"Goodlettsville, TN",Goodlettsville,TN,United States,City
+202,"Livonia, MI",Livonia,MI,United States,City
+74,"Clearwater, FL",Clearwater,FL,United States,City
+289,"Pennington, NJ",Pennington,NJ,United States,City
+417,"Woodbridge, NJ",Woodbridge,NJ,United States,City
+253,"New Brunswick, NJ",New Brunswick,NJ,United States,City
+137,"Gaithersburg, MD",Gaithersburg,MD,United States,City
+271,"Northridge, CA",Northridge,CA,United States,City
+364,"Springfield, MO",Springfield,MO,United States,City
+81,"Columbia, MD",Columbia,MD,United States,City
+318,"Richland, WA",Richland,WA,United States,City
+216,Maryland,,MD,United States,State
+403,"Weehawken, NJ",Weehawken,NJ,United States,City
+292,"Perrysburg, OH",Perrysburg,OH,United States,City
+110,"Edwards, CA",Edwards,CA,United States,City
+220,"Melbourne, FL",Melbourne,FL,United States,City
+334,"Roy, UT",Roy,UT,United States,City
+388,"Umatilla, OR",Umatilla,OR,United States,City
+316,"Richards, TX",Richards,TX,United States,City
+298,"Plantation, FL",Plantation,FL,United States,City
+80,"Colorado Springs, CO",Colorado Springs,CO,United States,City
+283,"Palmdale, CA",Palmdale,CA,United States,City
+327,"Rochelle, IL",Rochelle,IL,United States,City
+413,"Willow Grove, PA",Willow Grove,PA,United States,City
+402,"Waukegan, IL",Waukegan,IL,United States,City
+158,"Hermiston, OR",Hermiston,OR,United States,City
+332,"Roseville, CA",Roseville,CA,United States,City

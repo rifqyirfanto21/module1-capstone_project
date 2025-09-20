@@ -1,7 +1,7 @@
 from config.setting import REQUIREMENTS_DATA_PATH, WATCHES_DATA_PATH
 from scripts.extract import extract_csv
 from scripts.transform import transform_data_requirements, transform_data_watches
-from scripts.load import load_to_postgres
+from scripts.load import load_to_postgres, save_to_csv
 from utils.data_profile import data_demographi
 
 def main():
@@ -30,7 +30,7 @@ def main():
     transformed_watches = transform_data_watches(raw_watches_df)
 
     # Data demographi/profiling
-    watches_demographi = data_demographi(transformed_watches)
+    watches_demographi = data_demographi(transformed_watches, ["image", "link"])
 
     # Dimensional tables
     dim_products = transformed_watches[["product_id", "name", "brand_cleaned", "main_category", "sub_category", "image", "link", "ratings", "no_of_ratings", "actual_price", "discount_price", "currency"]].drop_duplicates(subset=["product_id"]).reset_index(drop=True)
@@ -44,6 +44,16 @@ def main():
     load_to_postgres(dim_time, "dim_time")
     load_to_postgres(fact_requirements, "fact_requirements")
     load_to_postgres(dim_products, "dim_products")
+
+    # Save to CSV
+    save_to_csv(dim_company, "dim_company")
+    save_to_csv(dim_location, "dim_location")
+    save_to_csv(dim_job_family, "dim_job_family")
+    save_to_csv(dim_seniority, "dim_seniority")
+    save_to_csv(dim_date, "dim_date")
+    save_to_csv(dim_time, "dim_time")
+    save_to_csv(fact_requirements, "fact_requirements")
+    save_to_csv(dim_products, "dim_products")
 
     print(requirements_demographi)
     print(watches_demographi)
