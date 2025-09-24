@@ -144,6 +144,15 @@ The pipeline will:
 4. Load processed data into PostgreSQL database
 5. Generate data profiling reports
 
+## Deliverables
+
+### Video Explanations
+- **10-Minute Version:** [YouTube - 10 Minutes](https://youtu.be/rOFJyitcHsM)
+- **Extended Version (Extended/Detailed):** [YouTube - Extended](https://youtu.be/x2ztU25MUDo)
+
+### Warehouse Files
+- **Google Drive Folder:** [Warehouse CSV Files](https://drive.google.com/drive/folders/1cRa6dn68YKgMqXmj8rdI0mzgQhbH9YnZ?usp=sharing)
+
 ## Project Highlights
 - **Production-Ready Architecture**: Modular, scalable code structure
 - **Data Quality Focus**: Comprehensive cleaning and validation processes  
